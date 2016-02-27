@@ -1,0 +1,502 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"selec",
+				"selections"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"name",
+				"name-title"
+			],
+			[
+				"branch",
+				"branch-name"
+			],
+			[
+				"kara",
+				"karlaitalic"
+			],
+			[
+				"karla",
+				"karlabold"
+			],
+			[
+				"select",
+				"selections"
+			],
+			[
+				"kar",
+				"karlabold"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"ov",
+				"ov:v	overflow:visible"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"contact",
+				"contact-method"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"bubbl",
+				"bubbleContainer"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"menu",
+				"menuItems"
+			],
+			[
+				"data",
+				"data-tabbed-menu"
+			],
+			[
+				"tab",
+				"tab-results"
+			],
+			[
+				"this",
+				"thisP"
+			],
+			[
+				"cur",
+				"cur:p	cursor:pointer"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 39577,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/W/tdm/package.json",
+		"/W/_tdm/package.json",
+		"/W/tdm/app.js",
+		"/W/tdm/server.js",
+		"/W/tdm/views/layout.jade",
+		"/W/tdm/routes/index.js",
+		"/W/tdm/views/userlist.jade",
+		"/C/Users/Glassware/Desktop/mongo.bat",
+		"/C/Users/Glassware/Desktop/tdm.bat",
+		"/C/Users/Glassware/Desktop/mongoGlass.bat",
+		"/W/tdm/views/helloworld.jade",
+		"/C/Users/Glassware/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Glassware/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/W/TDM/myapp/package.json",
+		"/W/tdm/views/index.jade",
+		"/W/tdm/views/error.jade",
+		"/W/TDM/package.json",
+		"/W/work/Locator/glass/include/js/script.js",
+		"/W/work/Locator/glass/include/style.scss",
+		"/W/work/Locator/glass/locator.html",
+		"/W/work/Locator/glass/include/global.css",
+		"/C/Users/Glassware/AppData/Roaming/Sublime Text 2/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/W/work/Locator/glass/include/style.css",
+		"/W/Lindsay/include/styles.css",
+		"/W/Lindsay/index.html",
+		"/W/Lindsay/chapter-14/JavaJam/music.html",
+		"/W/Lindsay/chapter-14/JavaJam/include/javajam.css",
+		"/W/Lindsay/chapter-12/FishCreek/shop.html",
+		"/W/Lindsay/chapter-12/FishCreek/include/fishcreek.css",
+		"/W/Lindsay/chapter-14/FishCreek/include/fishcreek.css",
+		"/W/Lindsay/chapter-13/FishCreek/include/fishcreek.css",
+		"/W/Lindsay/assets/Chapter 12/fishcreek12/fishcreek.css",
+		"/W/Lindsay/chapter-13/FishCreek/shop.html",
+		"/W/Lindsay/chapter-11/FishCreek/contact.html",
+		"/W/Lindsay/chapter-14/FishCreek/contact.html",
+		"/W/Lindsay/chapter-13/FishCreek/contact.html",
+		"/W/Lindsay/chapter-12/FishCreek/contact.html",
+		"/W/Lindsay/chapter-14/FishCreek/index.html",
+		"/W/Lindsay/chapter-14/FishCreek/shop.html",
+		"/W/Lindsay/chapter-14/FishCreek/services.html",
+		"/W/Lindsay/chapter-14/FishCreek/askvet.html",
+		"/W/Lindsay/chapter-11/FishCreek/askvet.html",
+		"/W/Lindsay/chapter-12/FishCreek/askvet.html",
+		"/W/Lindsay/chapter-13/FishCreek/askvet.html",
+		"/W/Lindsay/assets/Chapter 14/fishcreek14/askvet.html",
+		"/W/Lindsay/assets/Chapter 14/javajam14/music.html",
+		"/W/Lindsay/chapter-12/JavaJam/menu.html",
+		"/W/Lindsay/chapter-12/JavaJam/index.html",
+		"/W/Lindsay/chapter-12/JavaJam/gear.html",
+		"/W/Lindsay/chapter-12/JavaJam/jobs.html",
+		"/W/Lindsay/chapter-12/JavaJam/music.html",
+		"/W/Lindsay/chapter-13/JavaJam/music.html",
+		"/W/Lindsay/chapter-13/JavaJam/menu.html",
+		"/W/Lindsay/chapter-13/JavaJam/jobs.html",
+		"/W/Lindsay/chapter-13/JavaJam/index.html",
+		"/W/Lindsay/chapter-13/JavaJam/gear.html",
+		"/W/Lindsay/chapter-14/JavaJam/jobs.html",
+		"/W/Lindsay/chapter-14/JavaJam/menu.html",
+		"/W/Lindsay/chapter-14/JavaJam/index.html",
+		"/W/Lindsay/chapter-14/JavaJam/gear.html",
+		"/W/Lindsay/chapter-13/FishCreek/services.html",
+		"/W/Lindsay/chapter-13/FishCreek/index.html",
+		"/W/Lindsay/chapter-12/FishCreek/index.html",
+		"/W/Lindsay/chapter-12/FishCreek/services.html",
+		"/W/Lindsay/assets/Chapter 14/javajam14/gear.html",
+		"/W/Lindsay/assets/Chapter 14/javajam14/index.html",
+		"/W/Lindsay/assets/Chapter 14/javajam14/menu.html",
+		"/W/Lindsay/assets/Chapter 14/fishcreek14/shop.html",
+		"/W/Lindsay/assets/Chapter 14/fishcreek14/services.html",
+		"/W/Lindsay/assets/Chapter 14/fishcreek14/index.html",
+		"/W/Lindsay/assets/Chapter 14/fishcreek14/contact.html",
+		"/W/Lindsay/assets/Chapter 13/javajam13/index.html",
+		"/W/Lindsay/assets/Chapter 13/fishcreek13/fishcreek.css",
+		"/W/Lindsay/chapter-9/FishCreek/services.html",
+		"/W/Lindsay/chapter-9/FishCreek/index.html",
+		"/W/Lindsay/chapter-9/FishCreek/contact.html",
+		"/W/Lindsay/chapter-9/FishCreek/askvet.html",
+		"/W/Lindsay/chapter-9/JavaJam/music.html",
+		"/W/Lindsay/chapter-9/JavaJam/menu.html",
+		"/W/Lindsay/chapter-9/JavaJam/jobs.html",
+		"/W/Lindsay/chapter-9/JavaJam/index.html",
+		"/W/Lindsay/chapter-11/FishCreek/services.html",
+		"/W/Lindsay/chapter-11/FishCreek/index.html",
+		"/W/Lindsay/assets/Chapter 12/javajam12/javajam.css",
+		"/W/Lindsay/chapter-11/JavaJam/music.html",
+		"/W/Lindsay/assets/Chapter 11/fishcreek11/fishcreek.css",
+		"/W/Lindsay/chapter-11/FishCreek/include/fishcreek.css",
+		"/W/Lindsay/assets/Chapter 11/fishcreek11/askvet.html",
+		"/W/Lindsay/assets/Chapter 12/fishcreek12/shop.html",
+		"/W/Lindsay/chapter-7/JavaJam/music.html",
+		"/W/Lindsay/chapter-7/JavaJam/jobs.html",
+		"/W/Lindsay/chapter-7/JavaJam/menu.html",
+		"/W/Lindsay/chapter-7/JavaJam/index.html",
+		"/W/Lindsay/chapter-7/FishCreek/services.html",
+		"/W/Lindsay/chapter-7/FishCreek/index.html",
+		"/W/Lindsay/chapter-7/FishCreek/contact.html",
+		"/W/Lindsay/chapter-7/FishCreek/askvet.html",
+		"/W/Lindsay/chapter-6/JavaJam/music.html",
+		"/W/Lindsay/chapter-6/JavaJam/jobs.html",
+		"/W/Lindsay/chapter-6/JavaJam/menu.html",
+		"/W/Lindsay/chapter-6/JavaJam/index.html",
+		"/W/Lindsay/chapter-6/FishCreek/services.html",
+		"/W/Lindsay/chapter-6/FishCreek/index.html",
+		"/W/Lindsay/chapter-6/FishCreek/contact.html",
+		"/W/Lindsay/chapter-6/FishCreek/askvet.html",
+		"/W/Lindsay/chapter-5/JavaJam/music.html",
+		"/W/Lindsay/chapter-5/JavaJam/menu.html",
+		"/W/Lindsay/chapter-5/JavaJam/jobs.html",
+		"/W/Lindsay/chapter-5/JavaJam/index.html",
+		"/W/Lindsay/chapter-5/FishCreek/services.html",
+		"/W/Lindsay/chapter-5/FishCreek/index.html",
+		"/W/Lindsay/chapter-5/FishCreek/contact.html",
+		"/W/Lindsay/chapter-5/FishCreek/askvet.html",
+		"/W/Lindsay/chapter-4/JavaJam/music.html",
+		"/W/Lindsay/chapter-4/JavaJam/menu.html",
+		"/W/Lindsay/chapter-4/JavaJam/jobs.html",
+		"/W/Lindsay/chapter-4/JavaJam/index.html",
+		"/W/Lindsay/chapter-4/FishCreek/services.html",
+		"/W/Lindsay/chapter-4/FishCreek/contact.html",
+		"/W/Lindsay/chapter-4/FishCreek/index.html",
+		"/W/Lindsay/chapter-4/FishCreek/askvet.html",
+		"/W/Lindsay/chapter-3/JavaJam/music.html",
+		"/W/Lindsay/chapter-3/JavaJam/menu.html",
+		"/W/Lindsay/chapter-3/JavaJam/jobs.html",
+		"/W/Lindsay/chapter-3/JavaJam/index.html",
+		"/W/Lindsay/chapter-2/JavaJam/music.html",
+		"/W/Lindsay/chapter-2/JavaJam/menu.html",
+		"/W/Lindsay/chapter-2/JavaJam/jobs.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"8",
+			"18px",
+			"margin-top: -",
+			"branch-advi",
+			"margin-top: -2px;",
+			"tab-results",
+			".location",
+			"&.loCATION",
+			"max-width: 1200px;",
+			"filter-search",
+			"tab-results",
+			"m-zero",
+			"</label>",
+			"<label for=\"\">",
+			".selection",
+			".checkbox",
+			"class=\"bubble\"",
+			".checkbox.filled",
+			"checkbox",
+			"filter",
+			".text",
+			"contact",
+			"TEXT-RES",
+			"input[type=\"text\"]",
+			".label",
+			"filled",
+			".text",
+			"selections",
+			"selection",
+			"selections ",
+			"bubble",
+			"checkbox",
+			"form",
+			"1195px",
+			"tabs",
+			"data-bubble",
+			"<span>",
+			"</strong>",
+			"<strong>",
+			"</strong>",
+			"<strong>",
+			"</b>",
+			"<b>",
+			"[Old Site Style]",
+			"params",
+			"descr",
+			"empty",
+			"hidden",
+			"[wat]"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"m-r-zero",
+			"",
+			"class=\"checkbox\"",
+			"1200px",
+			"data-filter-bubble",
+			"<span class=\"category\">",
+			"</span>",
+			"<span>",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 39577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37883,
+								37883
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3127.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 157.0
+	},
+	"replace":
+	{
+		"height": 110.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
