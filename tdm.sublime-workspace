@@ -148,19 +148,11 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 39577,
+				"buffer_size": 825,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": ".git/info/exclude",
-			"settings":
-			{
-				"buffer_size": 259,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -193,11 +185,18 @@
 	"file_history":
 	[
 		"/W/tdm/package.json",
-		"/W/_tdm/package.json",
+		"/W/tdm/routes/index.js",
 		"/W/tdm/app.js",
 		"/W/tdm/server.js",
+		"/W/tdm/routes/users.js",
+		"/W/tdm/bin/www",
+		"/W/tdm-assets/serverinfo.txt",
+		"/W/tdm/node_modules/express/package.json",
+		"/C/Users/Glassware/.ssh/id_rsa.ppk",
+		"/W/_tdm/package.json",
+		"/W/tdm/index.html",
+		"/W/tdm/.git/info/exclude",
 		"/W/tdm/views/layout.jade",
-		"/W/tdm/routes/index.js",
 		"/W/tdm/views/userlist.jade",
 		"/C/Users/Glassware/Desktop/mongo.bat",
 		"/C/Users/Glassware/Desktop/tdm.bat",
@@ -312,14 +311,7 @@
 		"/W/Lindsay/chapter-4/FishCreek/services.html",
 		"/W/Lindsay/chapter-4/FishCreek/contact.html",
 		"/W/Lindsay/chapter-4/FishCreek/index.html",
-		"/W/Lindsay/chapter-4/FishCreek/askvet.html",
-		"/W/Lindsay/chapter-3/JavaJam/music.html",
-		"/W/Lindsay/chapter-3/JavaJam/menu.html",
-		"/W/Lindsay/chapter-3/JavaJam/jobs.html",
-		"/W/Lindsay/chapter-3/JavaJam/index.html",
-		"/W/Lindsay/chapter-2/JavaJam/music.html",
-		"/W/Lindsay/chapter-2/JavaJam/menu.html",
-		"/W/Lindsay/chapter-2/JavaJam/jobs.html"
+		"/W/Lindsay/chapter-4/FishCreek/askvet.html"
 	],
 	"find":
 	{
@@ -413,54 +405,30 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 39577,
+						"buffer_size": 825,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								37883,
-								37883
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3127.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": ".git/info/exclude",
-					"settings":
-					{
-						"buffer_size": 259,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								259,
-								259
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
