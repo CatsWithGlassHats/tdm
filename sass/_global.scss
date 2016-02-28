@@ -1,12 +1,26 @@
-.uppercase {
-  text-transform: uppercase;
+//Elements
+a {
+  color: $tdm-orange;
+  text-decoration: none;
+  font-weight: 400;
+
+  &:link {
+    color: $link-color;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  &:visited {
+    color: $link-visited-color;
+    text-decoration: none;
+  }
+  &:hover {
+    color: $link-hover-color;
+  }
+  &:active {
+    color: $link-active-color;
+  }
 }
-.ta-bold {
-  font-weight: bold;
-}
-.ta-center {
-  text-align: center;
-}
+
 // Pulsating Circle
 svg.tdm-pulsing-circle {
 	position: relative;
@@ -34,4 +48,23 @@ svg.tdm-pulsing-circle {
   animation-iteration-count:infinite;
   animation-direction:alternate;
   animation-timing-function:ease-in;
+}
+
+//Social Netwroking Icons
+.social-net-icons {
+
+  .twitter {
+    display: inline-block;
+
+      &:after {
+      font-family: "fontAwesome";
+      @include font-size(3);
+      content:"\f099";
+    }
+  }
+}
+
+//Shorthands
+.mb-5rem {
+  margin-bottom: 5rem;
 }

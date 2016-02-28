@@ -1,10 +1,10 @@
-div.message-wrapper
+.message-wrapper
 	header
 		div.wrapper
 			mixin tdm-title
 			mixin tdm-subtitle
 	section.ta-center
-		div.wrapper
+		.wrapper
 			p
 				|Welcome to the official, unofficial The Division Map!
 			p 
@@ -19,7 +19,19 @@ div.message-wrapper
 				|, and 
 				span.ta-bold vote 
 				|to corroborate the claims of fellow community members.
-			p
+			p.mb-5rem
 				|With time, and the help of dedicated fans, we hope to create a site that can operate as a true hub for the community, allowing players to share discoveries and discuss The Division with other, like-minded fans. Keep checking this space for future updates!
+			a.email-signup(href="//www.surveymonkey.com/r/JVVD3P2" target="_blank")
+				span Interested? Sign up for e-mail notificaiton once we launch... <br>(We promise not to spam)!
+			div.social-net-icons
+				a.twitter(href="https://twitter.com/TheDivisionMap" target="_blank")
+			.dz.featurelet.uppercase
+				span Dark Zone's Chests
+			.tracking.featurelet.uppercase
+				span Real-Time Tracking
+			.bosses.featurelet.uppercase
+				span Bosses
+			.encounters.featurelet.uppercase
+				span Encounters
 include pulsingcircle.html
 

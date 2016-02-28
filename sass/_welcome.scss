@@ -82,11 +82,48 @@ p {
 
 .message-wrapper {
 	@include perfect-center();
-	top: 42%;
+	top: 45%;
 	width: 90%;
+
+	.featurelet {
+		position: absolute;
+		@include font-size(1.4);
+		text-align: center;
+		padding: 18px 20px;
+		box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.3);
+		font-weight: 700;
+		width: 200px;
+		background: rgba(255,255,255,0.3);
+		color: #000;
+
+		&.dz {
+			top: -12%;
+			left: -30%;
+		}
+
+		&.tracking {
+			top: 0%;
+			right: -50%;
+		}
+
+		&.bosses {
+			bottom: -11%;
+			left: -45%;
+		}
+
+		&.encounters {
+			bottom: -20%;
+			right: -35%;
+		}
+	}
+
+	.social-net-icons {
+		margin-top: 2rem;
+	}
 }
 
 .wrapper {
+	position: relative;
 	width: 100%;
 	max-width: 600px;
 	margin: 0 auto;
