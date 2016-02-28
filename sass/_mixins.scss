@@ -10,37 +10,10 @@
 	transform: translate(-50%, -50%);
 }
 
-@mixin breakpoint($device,$orientation...) {
-	@if $device == 'iphone6' {
-		@if $orientation == 'all' {
-			@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) {
-				@content;
-			}
-		}
-		@else if $orientation == 'portrait' {
-			@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2){
-				@content;
-			}
-		}
-		@else if $orientation == 'landscape' {
-			@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-				@content;
-			}
-		}
+@mixin breakpoint($width) {
+	@media only screen and (max-width: $width+px) {
+		@content;
 	}
-	@else if $device == 'iphone6+' {
-		@if $orientation == 'portrait' {
-			@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3){
-				@content;
-			}
-		}
-		@else if $orientation == 'landscape' {
-			@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
-				@content;
-			}
-		}
-	}
-	
 }
 
 @mixin rounded($radius: 0.5em) {

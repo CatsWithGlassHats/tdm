@@ -173,7 +173,7 @@ svg.tdm-pulsing-circle {
   margin-bottom: 5rem;
 }
 
-/* line 1, ../../../sass/_welcome.scss */
+/* line 3, ../../../sass/_welcome.scss */
 body {
   position: relative;
   background: #000;
@@ -181,33 +181,46 @@ body {
   overflow: hidden;
   color: #FFF;
 }
+@media only screen and (max-width: 600px) {
+  /* line 3, ../../../sass/_welcome.scss */
+  body {
+    overflow: visible;
+  }
+}
 
-/* line 9, ../../../sass/_welcome.scss */
+/* line 15, ../../../sass/_welcome.scss */
 header {
   text-align: center;
   font-family: "Titillium Web", sans-serif;
   text-align: center;
   position: relative;
 }
-/* line 15, ../../../sass/_welcome.scss */
+/* line 21, ../../../sass/_welcome.scss */
 header .wrapper {
   margin-bottom: 60px;
 }
-/* line 19, ../../../sass/_welcome.scss */
+@media only screen and (max-width: 600px) {
+  /* line 21, ../../../sass/_welcome.scss */
+  header .wrapper {
+    margin: 60px 0;
+    text-align: center;
+  }
+}
+/* line 30, ../../../sass/_welcome.scss */
 header h1.tdm-title {
   font-size: 38px;
   font-size: 3.8rem;
   word-spacing: -1rem;
 }
-/* line 27, ../../../sass/_welcome.scss */
+/* line 34, ../../../sass/_welcome.scss */
 header h1.tdm-title .t-thin {
   font-weight: 300;
 }
-/* line 31, ../../../sass/_welcome.scss */
+/* line 38, ../../../sass/_welcome.scss */
 header h1.tdm-title .t-bold {
   font-weight: 700;
 }
-/* line 36, ../../../sass/_welcome.scss */
+/* line 43, ../../../sass/_welcome.scss */
 header h2.tdm-subtitle {
   font-size: 12px;
   font-size: 1.2rem;
@@ -217,7 +230,7 @@ header h2.tdm-subtitle {
   display: block;
   margin: 0 auto;
 }
-/* line 45, ../../../sass/_welcome.scss */
+/* line 52, ../../../sass/_welcome.scss */
 header h2.tdm-subtitle span:before, header h2.tdm-subtitle span:after {
   content: " ";
   display: inline-block;
@@ -229,7 +242,31 @@ header h2.tdm-subtitle span:before, header h2.tdm-subtitle span:after {
   margin: 0 4px;
 }
 
-/* line 59, ../../../sass/_welcome.scss */
+/* line 66, ../../../sass/_welcome.scss */
+section {
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: 200;
+  letter-spacing: .1px;
+}
+/* line 71, ../../../sass/_welcome.scss */
+section .wrapper {
+  max-width: 520px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 71, ../../../sass/_welcome.scss */
+  section .wrapper {
+    padding: 0 10px;
+  }
+}
+
+/* line 81, ../../../sass/_welcome.scss */
+p {
+  margin-bottom: 20px;
+  line-height: 2.5rem;
+}
+
+/* line 86, ../../../sass/_welcome.scss */
 svg.tdm-pulsing-circle {
   position: absolute;
   top: 50%;
@@ -241,35 +278,31 @@ svg.tdm-pulsing-circle {
   background: url(../images/svg/phoenix.svg) 50% 56% no-repeat #000;
   background-size: 68%;
 }
-
-/* line 68, ../../../sass/_welcome.scss */
-section {
-  font-size: 16px;
-  font-size: 1.6rem;
-  font-weight: 200;
-  letter-spacing: .1px;
-}
-/* line 73, ../../../sass/_welcome.scss */
-section .wrapper {
-  max-width: 520px;
+@media only screen and (max-width: 600px) {
+  /* line 86, ../../../sass/_welcome.scss */
+  svg.tdm-pulsing-circle {
+    opacity: .5;
+  }
 }
 
-/* line 78, ../../../sass/_welcome.scss */
-p {
-  margin-bottom: 20px;
-  line-height: 2.5rem;
-}
-
-/* line 83, ../../../sass/_welcome.scss */
+/* line 99, ../../../sass/_welcome.scss */
 .message-wrapper {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
   top: 45%;
-  width: 90%;
 }
-/* line 88, ../../../sass/_welcome.scss */
+@media only screen and (max-width: 600px) {
+  /* line 99, ../../../sass/_welcome.scss */
+  .message-wrapper {
+    transform: none;
+    top: initial;
+    left: initial;
+  }
+}
+/* line 110, ../../../sass/_welcome.scss */
 .message-wrapper .featurelet {
   position: absolute;
   font-size: 14px;
@@ -282,32 +315,58 @@ p {
   background: rgba(255, 255, 255, 0.3);
   color: #000;
 }
-/* line 99, ../../../sass/_welcome.scss */
+@media only screen and (max-width: 600px) {
+  /* line 110, ../../../sass/_welcome.scss */
+  .message-wrapper .featurelet {
+    display: none;
+  }
+}
+/* line 125, ../../../sass/_welcome.scss */
 .message-wrapper .featurelet.dz {
   top: -12%;
   left: -30%;
 }
-/* line 104, ../../../sass/_welcome.scss */
+/* line 130, ../../../sass/_welcome.scss */
 .message-wrapper .featurelet.tracking {
   top: 0%;
   right: -50%;
 }
-/* line 109, ../../../sass/_welcome.scss */
+/* line 135, ../../../sass/_welcome.scss */
 .message-wrapper .featurelet.bosses {
   bottom: -11%;
   left: -45%;
 }
-/* line 114, ../../../sass/_welcome.scss */
+/* line 140, ../../../sass/_welcome.scss */
 .message-wrapper .featurelet.encounters {
   bottom: -20%;
   right: -35%;
 }
-/* line 120, ../../../sass/_welcome.scss */
+/* line 146, ../../../sass/_welcome.scss */
 .message-wrapper .social-net-icons {
   margin-top: 2rem;
 }
+@media only screen and (max-width: 600px) {
+  /* line 146, ../../../sass/_welcome.scss */
+  .message-wrapper .social-net-icons {
+    margin-top: 4rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 153, ../../../sass/_welcome.scss */
+  .message-wrapper .social-net-icons a:after {
+    font-size: 58px;
+    font-size: 5.8rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 160, ../../../sass/_welcome.scss */
+  .message-wrapper a.email-signup {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+}
 
-/* line 125, ../../../sass/_welcome.scss */
+/* line 168, ../../../sass/_welcome.scss */
 .wrapper {
   position: relative;
   width: 100%;

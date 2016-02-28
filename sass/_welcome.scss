@@ -1,9 +1,15 @@
+$mobile-break1:600;
+
 body {
 	position: relative;
 	background: #000;
 	height: 100vh;
 	overflow: hidden;
 	color: #FFF;
+
+	@include breakpoint($mobile-break1) {
+		overflow: visible;
+	}
 }
 
 header {
@@ -14,15 +20,16 @@ header {
 
 	.wrapper {
 		margin-bottom: 60px;
+
+		@include breakpoint($mobile-break1) {
+			margin: 60px 0;
+			text-align: center;
+		}
 	}
 
 	h1.tdm-title {
 		@include font-size(3.8);
 		word-spacing: -1rem;
-
-		@include breakpoint('iphone6','all') {
-			@include font-size(5.8);
-		}
 
 		.t-thin {
 			font-weight: 300;
@@ -56,15 +63,6 @@ header {
 	}
 }
 
-svg.tdm-pulsing-circle {
-	@include perfect-center();
-	position: fixed;
-	z-index: -1;
-  max-width: 900px;
-  background: url(../images/svg/phoenix.svg) 50% 56% no-repeat #000;
-	background-size: 68%;
-}
-
 section {
 	@include font-size(1.6);
 	font-weight: 200;
@@ -72,6 +70,11 @@ section {
 
 	.wrapper {
 		max-width: 520px;
+		
+		@include breakpoint($mobile-break1) {
+			padding: 0 10px;
+		}
+
 	}
 }
 
@@ -80,10 +83,29 @@ p {
 	line-height: 2.5rem;
 }
 
+svg.tdm-pulsing-circle {
+	@include perfect-center();
+	position: fixed;
+	z-index: -1;
+  max-width: 900px;
+  background: url(../images/svg/phoenix.svg) 50% 56% no-repeat #000;
+	background-size: 68%;
+
+	@include breakpoint($mobile-break1) {
+		opacity: .5;
+	}
+}
+
 .message-wrapper {
 	@include perfect-center();
+	width: 100%;
 	top: 45%;
-	width: 90%;
+
+	@include breakpoint($mobile-break1) {
+		transform: none;
+		top: initial;
+		left: initial;
+	}
 
 	.featurelet {
 		position: absolute;
@@ -95,6 +117,10 @@ p {
 		width: 200px;
 		background: rgba(255,255,255,0.3);
 		color: #000;
+
+		@include breakpoint($mobile-break1) {
+			display: none;
+		}
 
 		&.dz {
 			top: -12%;
@@ -119,7 +145,24 @@ p {
 
 	.social-net-icons {
 		margin-top: 2rem;
+
+		@include breakpoint($mobile-break1) {
+			margin-top: 4rem;
+		}
+
+		a:after {
+			@include breakpoint($mobile-break1) {
+				@include font-size(5.8);
+			}
+		}
 	}
+
+	a.email-signup {
+		@include breakpoint($mobile-break1) {
+			@include font-size(1.8);
+		}
+	}
+	
 }
 
 .wrapper {
