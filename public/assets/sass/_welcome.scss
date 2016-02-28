@@ -1,0 +1,89 @@
+body {
+	position: relative;
+	background: #000;
+	height: 100vh;
+	overflow: hidden;
+	color: #FFF;
+}
+
+header {
+	text-align: center;
+	font-family: $header-font;
+	text-align: center;
+	position: relative;
+
+	.wrapper {
+		margin-bottom: 60px;
+	}
+
+	h1.tdm-title {
+		@include font-size(3.8);
+		word-spacing: -1rem;
+
+		.ta-thin {
+			font-weight: 300;
+		}
+
+		.ta-bold {
+			font-weight: 700;
+		}
+	}
+
+	h2.tdm-subtitle {
+		@include font-size(1.2);
+		font-weight: 300;
+		line-height: 1.2rem;
+		position: relative;
+		display: block;
+		margin: 0 auto;
+		
+		span {
+			&:before,&:after {
+				content: " ";
+				display: inline-block;
+				position: relative;
+				background: $tdm-orange;
+				width: 9px;
+				height: 5px;
+				vertical-align: 25%;
+				margin: 0 4px;
+			}
+		}
+	}
+}
+
+svg.tdm-pulsing-circle {
+	@include perfect-center();
+	position: fixed;
+	z-index: -1;
+  max-width: 900px;
+  background: url(../images/svg/phoenix.svg) 50% 56% no-repeat #000;
+	background-size: 68%;
+}
+
+section {
+	@include font-size(1.6);
+	font-weight: 200;
+	letter-spacing: .1px;
+
+	.wrapper {
+		max-width: 520px;
+	}
+}
+
+p {
+	margin-bottom: 20px;
+	line-height: 2.5rem;
+}
+
+.message-wrapper {
+	@include perfect-center();
+	top: 42%;
+	width: 90%;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}

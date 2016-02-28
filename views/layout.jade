@@ -1,7 +1,10 @@
+include templatemixins.jade
 doctype html
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+	head
+		title= title
+		meta(charset='UTF-8')
+		meta(name='description' content=description)
+		link(rel='stylesheet', href='/assets/stylesheets/styles.css')
+	body
+		block content
