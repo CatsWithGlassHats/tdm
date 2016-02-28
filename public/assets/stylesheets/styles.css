@@ -75,11 +75,16 @@ html {
 }
 
 /* line 13, ../../../sass/_fonts.scss */
-.ta-bold {
-  font-weight: bold;
+.tc-orange {
+  color: #ff6d10;
 }
 
 /* line 16, ../../../sass/_fonts.scss */
+.t-bold {
+  font-weight: bold;
+}
+
+/* line 19, ../../../sass/_fonts.scss */
 .ta-center {
   text-align: center;
 }
@@ -195,11 +200,11 @@ header h1.tdm-title {
   word-spacing: -1rem;
 }
 /* line 27, ../../../sass/_welcome.scss */
-header h1.tdm-title .ta-thin {
+header h1.tdm-title .t-thin {
   font-weight: 300;
 }
 /* line 31, ../../../sass/_welcome.scss */
-header h1.tdm-title .ta-bold {
+header h1.tdm-title .t-bold {
   font-weight: 700;
 }
 /* line 36, ../../../sass/_welcome.scss */
