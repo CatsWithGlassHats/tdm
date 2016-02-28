@@ -20,6 +20,10 @@ header {
 		@include font-size(3.8);
 		word-spacing: -1rem;
 
+		@include breakpoint('iphone6','all') {
+			@include font-size(5.8);
+		}
+
 		.ta-thin {
 			font-weight: 300;
 		}
