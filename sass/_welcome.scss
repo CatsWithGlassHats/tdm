@@ -1,4 +1,4 @@
-$mobile-break1:600;
+$mobile-break1:736;
 
 body {
 	position: relative;
@@ -99,7 +99,7 @@ svg.tdm-pulsing-circle {
 .message-wrapper {
 	@include perfect-center();
 	width: 100%;
-	top: 45%;
+	top: 47%;
 
 	@include breakpoint($mobile-break1) {
 		transform: none;
@@ -123,7 +123,7 @@ svg.tdm-pulsing-circle {
 		}
 
 		&.dz {
-			top: -12%;
+			top: -10%;
 			left: -30%;
 		}
 
@@ -133,12 +133,12 @@ svg.tdm-pulsing-circle {
 		}
 
 		&.bosses {
-			bottom: -11%;
+			bottom: -9%;
 			left: -45%;
 		}
 
 		&.encounters {
-			bottom: -20%;
+			bottom: -18%;
 			right: -35%;
 		}
 	}
@@ -170,4 +170,11 @@ svg.tdm-pulsing-circle {
 	width: 100%;
 	max-width: 600px;
 	margin: 0 auto;
+}
+
+canvas {
+	@include perfect-center();
+	position: fixed;
+	opacity: .5;
+	max-width: 740px;
 }

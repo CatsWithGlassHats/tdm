@@ -181,7 +181,7 @@ body {
   overflow: hidden;
   color: #FFF;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 736px) {
   /* line 3, ../../../sass/_welcome.scss */
   body {
     overflow: visible;
@@ -199,7 +199,7 @@ header {
 header .wrapper {
   margin-bottom: 60px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 736px) {
   /* line 21, ../../../sass/_welcome.scss */
   header .wrapper {
     margin: 60px 0;
@@ -253,7 +253,7 @@ section {
 section .wrapper {
   max-width: 520px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 736px) {
   /* line 71, ../../../sass/_welcome.scss */
   section .wrapper {
     padding: 0 10px;
@@ -278,7 +278,7 @@ svg.tdm-pulsing-circle {
   background: url(../images/svg/phoenix.svg) 50% 56% no-repeat #000;
   background-size: 68%;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 736px) {
   /* line 86, ../../../sass/_welcome.scss */
   svg.tdm-pulsing-circle {
     opacity: .5;
@@ -292,9 +292,9 @@ svg.tdm-pulsing-circle {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  top: 45%;
+  top: 47%;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 736px) {
   /* line 99, ../../../sass/_welcome.scss */
   .message-wrapper {
     transform: none;
@@ -315,7 +315,7 @@ svg.tdm-pulsing-circle {
   background: rgba(255, 255, 255, 0.3);
   color: #000;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 736px) {
   /* line 110, ../../../sass/_welcome.scss */
   .message-wrapper .featurelet {
     display: none;
@@ -323,7 +323,7 @@ svg.tdm-pulsing-circle {
 }
 /* line 125, ../../../sass/_welcome.scss */
 .message-wrapper .featurelet.dz {
-  top: -12%;
+  top: -10%;
   left: -30%;
 }
 /* line 130, ../../../sass/_welcome.scss */
@@ -333,32 +333,32 @@ svg.tdm-pulsing-circle {
 }
 /* line 135, ../../../sass/_welcome.scss */
 .message-wrapper .featurelet.bosses {
-  bottom: -11%;
+  bottom: -9%;
   left: -45%;
 }
 /* line 140, ../../../sass/_welcome.scss */
 .message-wrapper .featurelet.encounters {
-  bottom: -20%;
+  bottom: -18%;
   right: -35%;
 }
 /* line 146, ../../../sass/_welcome.scss */
 .message-wrapper .social-net-icons {
   margin-top: 2rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 736px) {
   /* line 146, ../../../sass/_welcome.scss */
   .message-wrapper .social-net-icons {
     margin-top: 4rem;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 736px) {
   /* line 153, ../../../sass/_welcome.scss */
   .message-wrapper .social-net-icons a:after {
     font-size: 58px;
     font-size: 5.8rem;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 736px) {
   /* line 160, ../../../sass/_welcome.scss */
   .message-wrapper a.email-signup {
     font-size: 18px;
@@ -372,4 +372,15 @@ svg.tdm-pulsing-circle {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
+}
+
+/* line 175, ../../../sass/_welcome.scss */
+canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  opacity: .5;
+  max-width: 740px;
 }
