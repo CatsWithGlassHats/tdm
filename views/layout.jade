@@ -1,13 +1,16 @@
+- var appenv = global_enviornment
+
 include templatemixins.jade
 doctype html
 html
 	head
 		title= title
 		meta(charset='UTF-8')
-		meta(name="viewport" content="width=device-width,initial-scal=1.0")
+		meta(name="viewport" content="width=device-width,initial-scale=1.0")
 		meta(name='description' content=description)
 		include css.jade
 		include scripts_head.jade
 	body
-		include tagmanager.html
+		if appenv != 'development'
+			include tagmanager.html
 		block content

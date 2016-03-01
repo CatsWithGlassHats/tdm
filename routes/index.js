@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'The Division Map', description: 'An interactive Map for The Division.' });
+  res.render('index', { title: 'The Division Map', description: 'An interactive Map for The Division.'});
 });
 
 module.exports = router;
