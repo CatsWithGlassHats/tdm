@@ -315,6 +315,12 @@ svg.tdm-pulsing-circle {
   top: 47%;
   z-index: 2;
 }
+@media only screen and (max-width: 1366px) and (max-height: 768px) {
+  /* line 115, ../../../sass/_welcome.scss */
+  .message-wrapper {
+    top: 54%;
+  }
+}
 @media only screen and (max-width: 768px) {
   /* line 115, ../../../sass/_welcome.scss */
   .message-wrapper {
@@ -323,7 +329,7 @@ svg.tdm-pulsing-circle {
     left: initial;
   }
 }
-/* line 127, ../../../sass/_welcome.scss */
+/* line 131, ../../../sass/_welcome.scss */
 .message-wrapper .featurelet {
   position: absolute;
   font-size: 14px;
@@ -337,57 +343,82 @@ svg.tdm-pulsing-circle {
   color: #000;
 }
 @media only screen and (max-width: 768px) {
-  /* line 127, ../../../sass/_welcome.scss */
+  /* line 131, ../../../sass/_welcome.scss */
   .message-wrapper .featurelet {
     display: none;
   }
 }
-/* line 142, ../../../sass/_welcome.scss */
+/* line 147, ../../../sass/_welcome.scss */
 .message-wrapper .featurelet.dz {
   top: -10%;
   left: -30%;
 }
-/* line 147, ../../../sass/_welcome.scss */
+@media only screen and (max-width: 1366px) and (max-height: 768px) {
+  /* line 147, ../../../sass/_welcome.scss */
+  .message-wrapper .featurelet.dz {
+    top: -25%;
+  }
+}
+/* line 156, ../../../sass/_welcome.scss */
 .message-wrapper .featurelet.tracking {
   top: 0%;
   right: -50%;
 }
-/* line 152, ../../../sass/_welcome.scss */
+@media only screen and (max-width: 1366px) and (max-height: 768px) {
+  /* line 156, ../../../sass/_welcome.scss */
+  .message-wrapper .featurelet.tracking {
+    top: -10%;
+    right: -42%;
+  }
+}
+/* line 166, ../../../sass/_welcome.scss */
 .message-wrapper .featurelet.bosses {
   bottom: -9%;
   left: -45%;
 }
-/* line 157, ../../../sass/_welcome.scss */
+@media only screen and (max-width: 1366px) and (max-height: 768px) {
+  /* line 166, ../../../sass/_welcome.scss */
+  .message-wrapper .featurelet.bosses {
+    bottom: 26%;
+  }
+}
+/* line 175, ../../../sass/_welcome.scss */
 .message-wrapper .featurelet.encounters {
   bottom: -18%;
   right: -35%;
 }
-/* line 163, ../../../sass/_welcome.scss */
+@media only screen and (max-width: 1366px) and (max-height: 768px) {
+  /* line 175, ../../../sass/_welcome.scss */
+  .message-wrapper .featurelet.encounters {
+    bottom: 10%;
+  }
+}
+/* line 185, ../../../sass/_welcome.scss */
 .message-wrapper .social-net-icons {
   margin-top: 2rem;
 }
 @media only screen and (max-width: 768px) {
-  /* line 163, ../../../sass/_welcome.scss */
+  /* line 185, ../../../sass/_welcome.scss */
   .message-wrapper .social-net-icons {
     margin-top: 4rem;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 170, ../../../sass/_welcome.scss */
+  /* line 192, ../../../sass/_welcome.scss */
   .message-wrapper .social-net-icons a:after {
     font-size: 58px;
     font-size: 5.8rem;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 177, ../../../sass/_welcome.scss */
+  /* line 199, ../../../sass/_welcome.scss */
   .message-wrapper a.email-signup {
     font-size: 18px;
     font-size: 1.8rem;
   }
 }
 
-/* line 185, ../../../sass/_welcome.scss */
+/* line 207, ../../../sass/_welcome.scss */
 .wrapper {
   position: relative;
   width: 100%;
@@ -395,7 +426,7 @@ svg.tdm-pulsing-circle {
   margin: 0 auto;
 }
 
-/* line 192, ../../../sass/_welcome.scss */
+/* line 214, ../../../sass/_welcome.scss */
 canvas {
   position: absolute;
   top: 50%;
@@ -409,7 +440,7 @@ canvas {
   z-index: -1;
 }
 @media only screen and (max-width: 768px) {
-  /* line 192, ../../../sass/_welcome.scss */
+  /* line 214, ../../../sass/_welcome.scss */
   canvas {
     max-width: 535px;
   }

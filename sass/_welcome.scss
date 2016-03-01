@@ -118,6 +118,10 @@ svg.tdm-pulsing-circle {
 	top: 47%;
 	z-index: 2;
 
+	@include breakpoint1366() {
+		top: 54%;
+	}
+
 	@include breakpoint($bp-ipad-p) {
 		transform: none;
 		top: initial;
@@ -135,6 +139,7 @@ svg.tdm-pulsing-circle {
 		background: rgba(255,255,255,0.3);
 		color: #000;
 
+
 		@include breakpoint($bp-ipad-p) {
 			display: none;
 		}
@@ -142,21 +147,38 @@ svg.tdm-pulsing-circle {
 		&.dz {
 			top: -10%;
 			left: -30%;
+
+			@include breakpoint1366() {
+				top: -25%;
+			}
 		}
 
 		&.tracking {
 			top: 0%;
 			right: -50%;
+
+			@include breakpoint1366() {
+				top: -10%;
+				right: -42%;
+			}
 		}
 
 		&.bosses {
 			bottom: -9%;
 			left: -45%;
+
+			@include breakpoint1366() {
+				bottom: 26%;
+			}
 		}
 
 		&.encounters {
 			bottom: -18%;
 			right: -35%;
+
+			@include breakpoint1366() {
+			bottom: 10%;
+		}
 		}
 	}
 
