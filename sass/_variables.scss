@@ -1,4 +1,7 @@
+//Colors
 $tdm-orange: #ff6d10;
+$tdm-pale-orage: #ffb052;
+
 
 $link-color: $tdm-orange;
 $link-visited-color: $tdm-orange;
@@ -6,3 +9,8 @@ $link-hover-color: #FF9E60;
 $link-active-color: $link-hover-color;
 
 $header-font: 'Titillium Web', sans-serif;
+
+
+//Breakpoints
+$bp-ipad-p: 768;
+$bp-ipad-l: 1024;

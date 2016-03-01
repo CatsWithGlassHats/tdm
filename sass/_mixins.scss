@@ -10,12 +10,6 @@
 	transform: translate(-50%, -50%);
 }
 
-@mixin breakpoint($width) {
-	@media only screen and (max-width: $width+px) {
-		@content;
-	}
-}
-
 @mixin rounded($radius: 0.5em) {
 	-webkit-border-radius: $radius;
 	-moz-border-radius: $radius;
@@ -26,4 +20,10 @@
 	background: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
 	background: -moz-linear-gradient(top,  $from, $to);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$from}', endColorstr='#{$to}');
+}
+
+@mixin breakpoint($width) {
+	@media only screen and (max-width: $width+px) {
+		@content;
+	}
 }
