@@ -6,16 +6,49 @@ html {
 	font-weight: 400;
 	font-size: 62.5%;
 }
-
+//All Global Font Related Items here
 .uppercase {
   text-transform: uppercase;
 }
 .tc-orange{
 	color: $tdm-orange;
 }
+.t-thin {
+	font-weight: thin
+}
 .t-bold {
   font-weight: bold;
 }
 .ta-center {
   text-align: center;
+}
+
+
+// Titles
+.tdm-title {
+	word-spacing: -1rem;
+
+	.t-thin {
+		font-weight: 300;
+	}
+	.t-bold {
+		font-weight: 700
+	}
+}
+
+.tdm-subtitle {
+	font-weight: 300;
+
+	span {
+		&:before,&:after {
+			content: " ";
+			display: inline-block;
+			position: relative;
+			background: $tdm-orange;
+			width: 9px;
+			height: 5px;
+			vertical-align: 25%;
+			margin: 0 4px;
+		}
+	}
 }

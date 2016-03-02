@@ -80,42 +80,76 @@ html {
 }
 
 /* line 16, ../../../sass/_fonts.scss */
+.t-thin {
+  font-weight: thin;
+}
+
+/* line 19, ../../../sass/_fonts.scss */
 .t-bold {
   font-weight: bold;
 }
 
-/* line 19, ../../../sass/_fonts.scss */
+/* line 22, ../../../sass/_fonts.scss */
 .ta-center {
   text-align: center;
 }
 
-/* line 2, ../../../sass/_global.scss */
+/* line 28, ../../../sass/_fonts.scss */
+.tdm-title {
+  word-spacing: -1rem;
+}
+/* line 31, ../../../sass/_fonts.scss */
+.tdm-title .t-thin {
+  font-weight: 300;
+}
+/* line 34, ../../../sass/_fonts.scss */
+.tdm-title .t-bold {
+  font-weight: 700;
+}
+
+/* line 39, ../../../sass/_fonts.scss */
+.tdm-subtitle {
+  font-weight: 300;
+}
+/* line 43, ../../../sass/_fonts.scss */
+.tdm-subtitle span:before, .tdm-subtitle span:after {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  background: #ff6d10;
+  width: 9px;
+  height: 5px;
+  vertical-align: 25%;
+  margin: 0 4px;
+}
+
+/* line 4, ../../../sass/_global.scss */
 a {
   color: #ff6d10;
   text-decoration: none;
   font-weight: 400;
 }
-/* line 7, ../../../sass/_global.scss */
+/* line 9, ../../../sass/_global.scss */
 a:link {
   color: #ff6d10;
   text-decoration: none;
   font-weight: 400;
 }
-/* line 12, ../../../sass/_global.scss */
+/* line 14, ../../../sass/_global.scss */
 a:visited {
   color: #ff6d10;
   text-decoration: none;
 }
-/* line 16, ../../../sass/_global.scss */
+/* line 18, ../../../sass/_global.scss */
 a:hover {
   color: #FF9E60;
 }
-/* line 19, ../../../sass/_global.scss */
+/* line 21, ../../../sass/_global.scss */
 a:active {
   color: #FF9E60;
 }
 
-/* line 25, ../../../sass/_global.scss */
+/* line 27, ../../../sass/_global.scss */
 svg.tdm-pulsing-circle {
   position: relative;
   max-height: 100%;
@@ -137,7 +171,7 @@ svg.tdm-pulsing-circle {
     stroke-width: 3;
   }
 }
-/* line 37, ../../../sass/_global.scss */
+/* line 39, ../../../sass/_global.scss */
 .tdm-pulsing-circle #circle-glow-dark-orange {
   animation-name: pulse;
   animation-duration: 1s;
@@ -146,7 +180,7 @@ svg.tdm-pulsing-circle {
   animation-timing-function: ease-in;
 }
 
-/* line 44, ../../../sass/_global.scss */
+/* line 46, ../../../sass/_global.scss */
 .tdm-pulsing-circle #circle-glow-light-orange {
   opacity: .5;
   animation-name: pulse2;
@@ -156,11 +190,11 @@ svg.tdm-pulsing-circle {
   animation-timing-function: ease-in;
 }
 
-/* line 56, ../../../sass/_global.scss */
+/* line 58, ../../../sass/_global.scss */
 .social-net-icons .twitter {
   display: inline-block;
 }
-/* line 59, ../../../sass/_global.scss */
+/* line 61, ../../../sass/_global.scss */
 .social-net-icons .twitter:after {
   font-family: "fontAwesome";
   font-size: 30px;
@@ -168,13 +202,13 @@ svg.tdm-pulsing-circle {
   content: "\f099";
 }
 
-/* line 68, ../../../sass/_global.scss */
+/* line 70, ../../../sass/_global.scss */
 .mb-5rem {
   margin-bottom: 5rem;
 }
 
 /* line 1, ../../../sass/_welcome.scss */
-body {
+body.welcome {
   position: relative;
   background: #000;
   height: 100vh;
@@ -183,112 +217,87 @@ body {
 }
 @media only screen and (max-width: 768px) {
   /* line 1, ../../../sass/_welcome.scss */
-  body {
+  body.welcome {
     overflow: visible;
   }
 }
-
 /* line 13, ../../../sass/_welcome.scss */
-header {
+body.welcome header {
   text-align: center;
   font-family: "Titillium Web", sans-serif;
   text-align: center;
   position: relative;
 }
 /* line 19, ../../../sass/_welcome.scss */
-header .wrapper {
+body.welcome header .wrapper {
   margin-bottom: 60px;
 }
 @media only screen and (max-width: 1024px) {
   /* line 19, ../../../sass/_welcome.scss */
-  header .wrapper {
+  body.welcome header .wrapper {
     margin: 60px auto;
   }
 }
 /* line 29, ../../../sass/_welcome.scss */
-header h1.tdm-title {
+body.welcome header h1.tdm-title {
   font-size: 38px;
   font-size: 3.8rem;
-  word-spacing: -1rem;
 }
 @media only screen and (max-width: 768px) {
   /* line 29, ../../../sass/_welcome.scss */
-  header h1.tdm-title {
+  body.welcome header h1.tdm-title {
     font-size: 50px;
     font-size: 5rem;
   }
 }
 /* line 37, ../../../sass/_welcome.scss */
-header h1.tdm-title .t-thin {
-  font-weight: 300;
-}
-/* line 41, ../../../sass/_welcome.scss */
-header h1.tdm-title .t-bold {
-  font-weight: 700;
-}
-/* line 46, ../../../sass/_welcome.scss */
-header h2.tdm-subtitle {
+body.welcome header h2.tdm-subtitle {
   font-size: 12px;
   font-size: 1.2rem;
-  font-weight: 300;
   line-height: 1.2rem;
   position: relative;
   display: block;
   margin: 0 auto;
 }
 @media only screen and (max-width: 768px) {
-  /* line 46, ../../../sass/_welcome.scss */
-  header h2.tdm-subtitle {
+  /* line 37, ../../../sass/_welcome.scss */
+  body.welcome header h2.tdm-subtitle {
     font-size: 16px;
     font-size: 1.6rem;
   }
 }
-/* line 60, ../../../sass/_welcome.scss */
-header h2.tdm-subtitle span:before, header h2.tdm-subtitle span:after {
-  content: " ";
-  display: inline-block;
-  position: relative;
-  background: #ff6d10;
-  width: 9px;
-  height: 5px;
-  vertical-align: 25%;
-  margin: 0 4px;
-}
-
-/* line 74, ../../../sass/_welcome.scss */
-section {
+/* line 50, ../../../sass/_welcome.scss */
+body.welcome section {
   font-size: 16px;
   font-size: 1.6rem;
   font-weight: 200;
   letter-spacing: .1px;
 }
 @media only screen and (max-width: 768px) {
-  /* line 74, ../../../sass/_welcome.scss */
-  section {
+  /* line 50, ../../../sass/_welcome.scss */
+  body.welcome section {
     font-size: 20px;
     font-size: 2rem;
   }
 }
-/* line 83, ../../../sass/_welcome.scss */
-section .wrapper {
+/* line 59, ../../../sass/_welcome.scss */
+body.welcome section .wrapper {
   max-width: 520px;
 }
 @media only screen and (max-width: 768px) {
-  /* line 83, ../../../sass/_welcome.scss */
-  section .wrapper {
+  /* line 59, ../../../sass/_welcome.scss */
+  body.welcome section .wrapper {
     max-width: 80%;
     padding: 0 10px;
   }
 }
-
-/* line 94, ../../../sass/_welcome.scss */
-p {
+/* line 70, ../../../sass/_welcome.scss */
+body.welcome p {
   margin-bottom: 20px;
   line-height: 2.5rem;
 }
-
-/* line 99, ../../../sass/_welcome.scss */
-svg.tdm-pulsing-circle {
+/* line 75, ../../../sass/_welcome.scss */
+body.welcome svg.tdm-pulsing-circle {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -299,14 +308,13 @@ svg.tdm-pulsing-circle {
   background-size: 68%;
 }
 @media only screen and (max-width: 768px) {
-  /* line 99, ../../../sass/_welcome.scss */
-  svg.tdm-pulsing-circle {
+  /* line 75, ../../../sass/_welcome.scss */
+  body.welcome svg.tdm-pulsing-circle {
     opacity: .5;
   }
 }
-
-/* line 115, ../../../sass/_welcome.scss */
-.message-wrapper {
+/* line 91, ../../../sass/_welcome.scss */
+body.welcome .message-wrapper {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -316,21 +324,21 @@ svg.tdm-pulsing-circle {
   z-index: 2;
 }
 @media only screen and (max-width: 1366px) and (max-height: 768px) {
-  /* line 115, ../../../sass/_welcome.scss */
-  .message-wrapper {
+  /* line 91, ../../../sass/_welcome.scss */
+  body.welcome .message-wrapper {
     top: 54%;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 115, ../../../sass/_welcome.scss */
-  .message-wrapper {
+  /* line 91, ../../../sass/_welcome.scss */
+  body.welcome .message-wrapper {
     transform: none;
     top: initial;
     left: initial;
   }
 }
-/* line 131, ../../../sass/_welcome.scss */
-.message-wrapper .featurelet {
+/* line 107, ../../../sass/_welcome.scss */
+body.welcome .message-wrapper .featurelet {
   position: absolute;
   font-size: 14px;
   font-size: 1.4rem;
@@ -343,91 +351,89 @@ svg.tdm-pulsing-circle {
   color: #000;
 }
 @media only screen and (max-width: 768px) {
-  /* line 131, ../../../sass/_welcome.scss */
-  .message-wrapper .featurelet {
+  /* line 107, ../../../sass/_welcome.scss */
+  body.welcome .message-wrapper .featurelet {
     display: none;
   }
 }
-/* line 147, ../../../sass/_welcome.scss */
-.message-wrapper .featurelet.dz {
+/* line 123, ../../../sass/_welcome.scss */
+body.welcome .message-wrapper .featurelet.dz {
   top: -10%;
   left: -30%;
 }
 @media only screen and (max-width: 1366px) and (max-height: 768px) {
-  /* line 147, ../../../sass/_welcome.scss */
-  .message-wrapper .featurelet.dz {
+  /* line 123, ../../../sass/_welcome.scss */
+  body.welcome .message-wrapper .featurelet.dz {
     top: -25%;
   }
 }
-/* line 156, ../../../sass/_welcome.scss */
-.message-wrapper .featurelet.tracking {
+/* line 132, ../../../sass/_welcome.scss */
+body.welcome .message-wrapper .featurelet.tracking {
   top: 0%;
   right: -50%;
 }
 @media only screen and (max-width: 1366px) and (max-height: 768px) {
-  /* line 156, ../../../sass/_welcome.scss */
-  .message-wrapper .featurelet.tracking {
+  /* line 132, ../../../sass/_welcome.scss */
+  body.welcome .message-wrapper .featurelet.tracking {
     top: -10%;
     right: -42%;
   }
 }
-/* line 166, ../../../sass/_welcome.scss */
-.message-wrapper .featurelet.bosses {
+/* line 142, ../../../sass/_welcome.scss */
+body.welcome .message-wrapper .featurelet.bosses {
   bottom: -9%;
   left: -45%;
 }
 @media only screen and (max-width: 1366px) and (max-height: 768px) {
-  /* line 166, ../../../sass/_welcome.scss */
-  .message-wrapper .featurelet.bosses {
+  /* line 142, ../../../sass/_welcome.scss */
+  body.welcome .message-wrapper .featurelet.bosses {
     bottom: 26%;
   }
 }
-/* line 175, ../../../sass/_welcome.scss */
-.message-wrapper .featurelet.encounters {
+/* line 151, ../../../sass/_welcome.scss */
+body.welcome .message-wrapper .featurelet.encounters {
   bottom: -18%;
   right: -35%;
 }
 @media only screen and (max-width: 1366px) and (max-height: 768px) {
-  /* line 175, ../../../sass/_welcome.scss */
-  .message-wrapper .featurelet.encounters {
+  /* line 151, ../../../sass/_welcome.scss */
+  body.welcome .message-wrapper .featurelet.encounters {
     bottom: 10%;
   }
 }
-/* line 185, ../../../sass/_welcome.scss */
-.message-wrapper .social-net-icons {
+/* line 161, ../../../sass/_welcome.scss */
+body.welcome .message-wrapper .social-net-icons {
   margin-top: 2rem;
 }
 @media only screen and (max-width: 768px) {
-  /* line 185, ../../../sass/_welcome.scss */
-  .message-wrapper .social-net-icons {
+  /* line 161, ../../../sass/_welcome.scss */
+  body.welcome .message-wrapper .social-net-icons {
     margin-top: 4rem;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 192, ../../../sass/_welcome.scss */
-  .message-wrapper .social-net-icons a:after {
+  /* line 168, ../../../sass/_welcome.scss */
+  body.welcome .message-wrapper .social-net-icons a:after {
     font-size: 58px;
     font-size: 5.8rem;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 199, ../../../sass/_welcome.scss */
-  .message-wrapper a.email-signup {
+  /* line 175, ../../../sass/_welcome.scss */
+  body.welcome .message-wrapper a.email-signup {
     font-size: 18px;
     font-size: 1.8rem;
   }
 }
-
-/* line 207, ../../../sass/_welcome.scss */
-.wrapper {
+/* line 183, ../../../sass/_welcome.scss */
+body.welcome .wrapper {
   position: relative;
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
 }
-
-/* line 214, ../../../sass/_welcome.scss */
-canvas {
+/* line 190, ../../../sass/_welcome.scss */
+body.welcome canvas {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -440,8 +446,8 @@ canvas {
   z-index: -1;
 }
 @media only screen and (max-width: 768px) {
-  /* line 214, ../../../sass/_welcome.scss */
-  canvas {
+  /* line 190, ../../../sass/_welcome.scss */
+  body.welcome canvas {
     max-width: 535px;
   }
 }

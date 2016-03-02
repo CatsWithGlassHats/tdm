@@ -1,6 +1,6 @@
 - var appenv = global_enviornment
 
-include templatemixins.jade
+include ../templatemixins.jade
 doctype html
 html
 	head
@@ -10,7 +10,7 @@ html
 		meta(name='description' content=description)
 		include css.jade
 		include scripts_head.jade
-	body
+	body(class=bodyclass)
 		if appenv != 'development'
 			include tagmanager.html
 		block content

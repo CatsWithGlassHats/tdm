@@ -1,4 +1,4 @@
-body {
+body.welcome {
 	position: relative;
 	background: #000;
 	height: 100vh;
@@ -8,219 +8,196 @@ body {
 	@include breakpoint($bp-ipad-p) {
 		overflow: visible;
 	}
-}
-
-header {
-	text-align: center;
-	font-family: $header-font;
-	text-align: center;
-	position: relative;
-
-	.wrapper {
-		margin-bottom: 60px;
 
 
-		@include breakpoint($bp-ipad-l) {
-			margin: 60px auto;
-		}
-
-	}
-
-	h1.tdm-title {
-		@include font-size(3.8);
-		word-spacing: -1rem;
-
-		@include breakpoint($bp-ipad-p) {
-			@include font-size(5);
-		}
-
-		.t-thin {
-			font-weight: 300;
-		}
-
-		.t-bold {
-			font-weight: 700;
-		}
-	}
-
-	h2.tdm-subtitle {
-		@include font-size(1.2);
-		font-weight: 300;
-		line-height: 1.2rem;
-		position: relative;
-		display: block;
-		margin: 0 auto;
-
-		@include breakpoint($bp-ipad-p) {
-			@include font-size(1.6);
-		}
-
-		
-		span {
-			&:before,&:after {
-				content: " ";
-				display: inline-block;
-				position: relative;
-				background: $tdm-orange;
-				width: 9px;
-				height: 5px;
-				vertical-align: 25%;
-				margin: 0 4px;
-			}
-		}
-	}
-}
-
-section {
-	@include font-size(1.6);
-	font-weight: 200;
-	letter-spacing: .1px;
-
-	@include breakpoint($bp-ipad-p) {
-		@include font-size(2);
-	}
-
-	.wrapper {
-		max-width: 520px;
-		
-		@include breakpoint($bp-ipad-p) {
-			max-width: 80%;
-			padding: 0 10px;
-		}
-
-	}
-}
-
-p {
-	margin-bottom: 20px;
-	line-height: 2.5rem;
-}
-
-svg.tdm-pulsing-circle {
-	@include perfect-center();
-	position: fixed;
-	z-index: 1;
-  max-width: 900px;
-	background-size: 68%;
-
-	@include breakpoint(850) {
-		//background: url(../images/svg/phoenix.svg) 50% 56% no-repeat #000;
-	}
-
-	@include breakpoint($bp-ipad-p) {
-		opacity: .5;
-	}
-}
-
-.message-wrapper {
-	@include perfect-center();
-	width: 100%;
-	top: 47%;
-	z-index: 2;
-
-	@include breakpoint1366() {
-		top: 54%;
-	}
-
-	@include breakpoint($bp-ipad-p) {
-		transform: none;
-		top: initial;
-		left: initial;
-	}
-
-	.featurelet {
-		position: absolute;
-		@include font-size(1.4);
+	header {
 		text-align: center;
-		padding: 18px 20px;
-		box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.3);
-		font-weight: 700;
-		width: 200px;
-		background: rgba(255,255,255,0.3);
-		color: #000;
+		font-family: $header-font;
+		text-align: center;
+		position: relative;
+
+		.wrapper {
+			margin-bottom: 60px;
 
 
-		@include breakpoint($bp-ipad-p) {
-			display: none;
-		}
-
-		&.dz {
-			top: -10%;
-			left: -30%;
-
-			@include breakpoint1366() {
-				top: -25%;
+			@include breakpoint($bp-ipad-l) {
+				margin: 60px auto;
 			}
+
 		}
 
-		&.tracking {
-			top: 0%;
-			right: -50%;
+		h1.tdm-title {
+			@include font-size(3.8);
 
-			@include breakpoint1366() {
-				top: -10%;
-				right: -42%;
-			}
-		}
-
-		&.bosses {
-			bottom: -9%;
-			left: -45%;
-
-			@include breakpoint1366() {
-				bottom: 26%;
-			}
-		}
-
-		&.encounters {
-			bottom: -18%;
-			right: -35%;
-
-			@include breakpoint1366() {
-			bottom: 10%;
-		}
-		}
-	}
-
-	.social-net-icons {
-		margin-top: 2rem;
-
-		@include breakpoint($bp-ipad-p) {
-			margin-top: 4rem;
-		}
-
-		a:after {
 			@include breakpoint($bp-ipad-p) {
-				@include font-size(5.8);
+				@include font-size(5);
 			}
 		}
-	}
 
-	a.email-signup {
-		@include breakpoint($bp-ipad-p) {
-			@include font-size(1.8);
+		h2.tdm-subtitle {
+			@include font-size(1.2);
+			line-height: 1.2rem;
+			position: relative;
+			display: block;
+			margin: 0 auto;
+
+			@include breakpoint($bp-ipad-p) {
+				@include font-size(1.6);
+			}			
 		}
 	}
-	
-}
 
-.wrapper {
-	position: relative;
-	width: 100%;
-	max-width: 600px;
-	margin: 0 auto;
-}
+	section {
+		@include font-size(1.6);
+		font-weight: 200;
+		letter-spacing: .1px;
 
-canvas {
-	@include perfect-center();
-	top: 54%;
-	position: fixed;
-	opacity: .8;
-	max-width: 700px;
-	width: 100%;
-	z-index: -1;
+		@include breakpoint($bp-ipad-p) {
+			@include font-size(2);
+		}
 
-	@include breakpoint($bp-ipad-p) {
-		max-width: 535px
+		.wrapper {
+			max-width: 520px;
+			
+			@include breakpoint($bp-ipad-p) {
+				max-width: 80%;
+				padding: 0 10px;
+			}
+
+		}
+	}
+
+	p {
+		margin-bottom: 20px;
+		line-height: 2.5rem;
+	}
+
+	svg.tdm-pulsing-circle {
+		@include perfect-center();
+		position: fixed;
+		z-index: 1;
+	  max-width: 900px;
+		background-size: 68%;
+
+		@include breakpoint(850) {
+			//background: url(../images/svg/phoenix.svg) 50% 56% no-repeat #000;
+		}
+
+		@include breakpoint($bp-ipad-p) {
+			opacity: .5;
+		}
+	}
+
+	.message-wrapper {
+		@include perfect-center();
+		width: 100%;
+		top: 47%;
+		z-index: 2;
+
+		@include breakpoint1366() {
+			top: 54%;
+		}
+
+		@include breakpoint($bp-ipad-p) {
+			transform: none;
+			top: initial;
+			left: initial;
+		}
+
+		.featurelet {
+			position: absolute;
+			@include font-size(1.4);
+			text-align: center;
+			padding: 18px 20px;
+			box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.3);
+			font-weight: 700;
+			width: 200px;
+			background: rgba(255,255,255,0.3);
+			color: #000;
+
+
+			@include breakpoint($bp-ipad-p) {
+				display: none;
+			}
+
+			&.dz {
+				top: -10%;
+				left: -30%;
+
+				@include breakpoint1366() {
+					top: -25%;
+				}
+			}
+
+			&.tracking {
+				top: 0%;
+				right: -50%;
+
+				@include breakpoint1366() {
+					top: -10%;
+					right: -42%;
+				}
+			}
+
+			&.bosses {
+				bottom: -9%;
+				left: -45%;
+
+				@include breakpoint1366() {
+					bottom: 26%;
+				}
+			}
+
+			&.encounters {
+				bottom: -18%;
+				right: -35%;
+
+				@include breakpoint1366() {
+				bottom: 10%;
+			}
+			}
+		}
+
+		.social-net-icons {
+			margin-top: 2rem;
+
+			@include breakpoint($bp-ipad-p) {
+				margin-top: 4rem;
+			}
+
+			a:after {
+				@include breakpoint($bp-ipad-p) {
+					@include font-size(5.8);
+				}
+			}
+		}
+
+		a.email-signup {
+			@include breakpoint($bp-ipad-p) {
+				@include font-size(1.8);
+			}
+		}
+		
+	}
+
+	.wrapper {
+		position: relative;
+		width: 100%;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	canvas {
+		@include perfect-center();
+		top: 54%;
+		position: fixed;
+		opacity: .8;
+		max-width: 700px;
+		width: 100%;
+		z-index: -1;
+
+		@include breakpoint($bp-ipad-p) {
+			max-width: 535px
+		}
 	}
 }
